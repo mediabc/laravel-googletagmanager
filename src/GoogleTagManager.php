@@ -57,6 +57,18 @@ class GoogleTagManager
     }
 
     /**
+     * Set the Google Tag Manager id.
+     *
+     * @param string $id
+     * @return string
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+        return $this->id;
+    }
+
+    /**
      * Check whether script rendering is enabled.
      *
      * @return bool
